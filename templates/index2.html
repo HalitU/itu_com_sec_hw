@@ -1,0 +1,21 @@
+<html>
+<head>
+        {% load static %}
+        <script src="{% static 'jquery.min.js' %}"></script>
+        <script src="{% static 'fabric.min.js' %}"></script>
+        <script src="{% static 'prism.js' %}"></script>
+</head>
+<body>
+        <form action="" method="POST" id="form1" enctype="multipart/form-data">
+                {% csrf_token %}
+                <canvas id="canvas" name="canvas" type="text" width="400" height="400" class="canvas"></canvas>
+                <input name="hidden" id="hidden" hidden/>
+                <input name="haha" type="text"></input>
+                <button onclick="myFunction()">Submit</button>
+        </form>
+
+        <button onclick="myFunction()">Submit</button>
+        
+        <script src="{% static 'canvas.js' %}"></script>
+</body>
+</html>
