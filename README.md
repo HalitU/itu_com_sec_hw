@@ -21,3 +21,5 @@ http://127.0.0.1:8000/canvas/
 ```
 
 ile resmi çizip submit yapabileceğiniz sayfaya ulaşabilirsiniz.
+
+Son olarak da submit ettiğiniz resmi manage.py ile aynı klasör düzeyinde imageToSave.png olarak göreceksiniz.

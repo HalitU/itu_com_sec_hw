@@ -43,7 +43,7 @@ def compare_images(imageA, imageB, title):
 
 
 
-original = cv2.imread("../base.png")
+original = cv2.imread("../imageToSave.png")
 contrast = cv2.imread("../imageToSave.png")
 shopped = cv2.imread("../imageToSave.png")
  
