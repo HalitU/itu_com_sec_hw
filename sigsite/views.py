@@ -24,8 +24,8 @@ class TestView(View):
         print(request.POST['hidden'])
         b64_data = request.POST['hidden']
         cleared_data = b64_data[22:]
+        
         print(len(cleared_data) % 4)
-
         pb_pr_key = self.generate_key_pair()
         pb_key = pb_pr_key.publickey() # separate public key to use in encryption
         print(pb_key)
